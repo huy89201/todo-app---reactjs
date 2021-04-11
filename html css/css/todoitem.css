@@ -1,0 +1,40 @@
+.todo-item,
+.todo-item__btn-wrapper {
+    display: flex;
+}
+
+.todo-item,
+.todo-item__id,
+.todo-item__name,
+.todo-item__btn-isComplete,
+.todo-item__btn-notComplete {
+    padding: 6px 12px;
+}
+
+.todo-item {
+    justify-content: space-between;
+    align-items: baseline;
+    transition: all 0.3s;
+}
+
+.todo-item__btn-isComplete,
+.todo-item__btn-notComplete {
+    cursor: pointer;
+}
+
+.todo-item__btn-isComplete {
+    color: #4ded65;
+}
+
+.todo-item__btn-notComplete {
+    color: red;
+}
+
+.todo-item:hover {
+    background-color: white;
+}
+
+.isComplete {
+    text-decoration: line-through;
+    color: #a09a9a;
+}
