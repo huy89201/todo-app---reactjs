@@ -16,6 +16,7 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px 20px;
+  width: 70%;
 }
 
 .input__input:focus {
@@ -32,6 +33,7 @@
   background-color: white;
   cursor: pointer;
   transition: all 0.3s;
+  width: 10%;
 }
 
 .input__submit-btn > i {
